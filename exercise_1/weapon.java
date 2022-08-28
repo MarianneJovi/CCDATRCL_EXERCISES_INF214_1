@@ -1,4 +1,4 @@
-public class Character {
+public class Weapon {
     // Character attributes
     int strength;
     int agility;
