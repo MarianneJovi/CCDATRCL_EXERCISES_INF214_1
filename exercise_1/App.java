@@ -53,7 +53,34 @@ public class App {
         dragon.hasMagicImmunity = false;
         dragon.name = "Ancient Wyvern";
         dragon.enemyDialogue();
+        
+         weapon boomerang = new weapon();
 
+        boomerang.name = "Boomerang tracker";
+        boomerang.damage = 30;
+        boomerang.weight = 2.5;
+        boomerang.rarity = "Epic";
+        boomerang.description = "A boomerang that will follow the enemy to know it's location";
+        boomerang.Weapon_1();
+
+        weapon Gun = new weapon();
+
+        Gun.name = "Shooter Gun";
+        Gun.damage = 80;
+        Gun.weight = 5;
+        Gun.rarity = "Legendary";
+        Gun.description = "A gun that shoots enemies, functions like a rocket launcher";
+        Gun.Weapon_1();
+
+        weapon Blade = new weapon();
+
+        Blade.name = "Hidden Blade";
+        Blade.damage = 100;
+        Blade.weight = 8;
+        Blade.rarity = "Mythical";
+        Blade.description = "A blade that hides your sleeves, a secretive, yet durable and strong";
+        Blade.Weapon_1();
+        
         // Exercise 1
         // 1. Create a "Weapon" class.
 
