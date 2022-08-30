@@ -1,12 +1,11 @@
-public class Weapon {
-    // Character attributes
-    int strength;
-    int agility;
-    int intelligence;
+public class weapon {
+    int damage;
+    double weight;
+    String description;
+    String rarity;
     String name;
 
-    // Character method
-    public void sayMyName() {
-        System.out.println("Hello I am " + name);
+    public void Weapon_1() {
+        System.out.println("Weapon name: " + name + "," + " Damage: " + damage + "," +" Weight: " + weight + "," + " Rarity: " + rarity + "," + " Descripion: " + description);
     }
 }
